@@ -29,18 +29,19 @@ from pydub import AudioSegment
 
 url = 'https://www.champssports.com/product/jordan-6-rings-mens/D5077105.html'
 
+#Insert Information into the dictionary
+#See credit card information down below 
 maos_dic = {
-    "fullname": "Michael Mao",
-    "f_name": "Michael",
-    "l_name": "Mao",
-    "email": "kkeelar@gmail.com",
-    "phone": 4704135954,
-    "address": "9425 Prestwick Club Drive",
-    "zip code": 30097,
-    "city": "Duluth",
-    "credit_card": 379593269671035,
-    "cvv": 1673,
-    "date_cc": "10/24",
+    "fullname": "",
+    "f_name": "",
+    "l_name": "",
+    "email": "",
+    "phone": ,
+    "address": "",
+    "zip code": ,
+    "city": "",
+    "cvv": ,
+    "date_cc": "",
 
 }
     
@@ -281,6 +282,7 @@ def buy_shoe():
             time.sleep(0.1)
 
     #Credit Card Function
+    #Plug in Credit Card information, 4 at a time where the numbers are
     driver.switch_to.default_content()
     link = None
     while not link:
