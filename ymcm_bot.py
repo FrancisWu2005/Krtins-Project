@@ -24,8 +24,7 @@ import urllib
 import pydub
 from pydub import AudioSegment
 
-url = 'https://shopnicekicks.com/collections/mens-kicks/products/forum-84-low-mens-lifestyle-shoe-white-green?variant=39673878872269'
-
+url = 'https://www.ycmc.com/collections/mens-shoes/products/made-in-usa-990v3-nwb-m990gy3'
 maos_dic = {
     "fullname": "Michael Mao",
     "f_name": "Michael",
@@ -35,9 +34,9 @@ maos_dic = {
     "address": "9425 Prestwick Club Drive",
     "zip code": 30097,
     "city": "Duluth",
-    "credit_card": 379593269671035,
-    "cvv": 1673,
-    "date_cc": "10/24",
+    "credit_card": 1234123412341234,
+    "cvv": 12324,
+    "date_cc": "12/24",
 
 }
 
@@ -216,6 +215,7 @@ def buy_shoe():
             time.sleep(0.1)
 
     #Credit Card Function
+    driver.switch_to.default
     link = None
     while not link:
         try:
